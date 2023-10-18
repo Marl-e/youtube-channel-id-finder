@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Channel ID Extractor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>YouTube Channel ID Extractor</h1>
+    <div class="container">
+        <label for="queries">Enter the queries (one per line):</label>
+        <textarea id="queries" rows="5" required></textarea>
+        <label for="api_key">Enter your YouTube Data API Key:</label>
+        <input type="text" id="api_key" required>
+        <button id="extractButton">Extract Channel IDs</button>
+    </div>
+    <div id="results">
+        <table id="resultsTable">
+            <!-- Table for results -->
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
